@@ -2,4 +2,4 @@
 
 This is my portfolio page.
 
-About my background and my recent projects.
+This page shows my background and my projects so far.
