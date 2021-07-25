@@ -1,4 +1,4 @@
-## Welcome to Misa's website
+## Welcome to Misa's Website
 
 This is my portfolio page.
 
