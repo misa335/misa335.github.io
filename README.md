@@ -3,4 +3,4 @@
 This is my portfolio page.
 
 This page shows my background and my projects.
-JavaScript/PHP/Python
+JavaScript/React/Vue/Node.js/PHP/Python
