@@ -8,7 +8,7 @@ import Headline from "../../components/common/Headline";
 
 const portfolio = [
     {
-        name: "All Worls",
+        name: "All Works",
         items: [
             {
                 id: 0,

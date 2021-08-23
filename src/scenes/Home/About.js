@@ -24,7 +24,7 @@ function About() {
                                         <span>Hello, I am Misako Kondoh.</span>
                                     </h3>
                                     <div className="divider divider-1"></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim enim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Born and raised in Nagoya, currently based in Tokyo. I started my career as a science teacher at a high school. Next I was in charge of business process remodeling administration by using RPA which is a low coding software. I consider myself a "multipotentialite" within various fields.</p>
                                 </header>
                                 <Row className="pt-30">
                                     <Col xs={12} sm={12} md={6}>
