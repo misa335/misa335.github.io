@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Hidden, Row, Col } from "react-grid-system";
-import { brotliCompressSync } from "zlib";
 
 function About() {
     return (

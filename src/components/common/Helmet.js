@@ -6,7 +6,7 @@ function PageHelmet(props) {
 
     return (
         <Helmet>
-            <title>💃Misa's Portfolio✨</title>
+            <title>Misa's Portfolio</title>
             {description && <meta name="description" content={description} />}
             {children}
         </Helmet>
