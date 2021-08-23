@@ -5,6 +5,7 @@ import Event from "./Event";
 import About from "./About";
 import Intro from "./Intro";
 import Header from "./Header";
+import Footer from "./Footer";
 import Resume from "./Resume";
 import Service from "./Service";
 import Contact from "./Contact";
@@ -67,23 +68,26 @@ function Home() {
 
     return (
         <div>
-            <Helmet title="Home 1" />
-            <Header />
-            <Switch>
-                <Route path={path} exact>
-                    <Redirect
-                        to={{
-                            pathname: `${path}/intro`.replace(/([^:])(\/\/+)/g, "$1/"),
-                        }}
-                    />
-                </Route>
-                {routes.map((item, index) => (
-                    <Route key={index} path={`${path}${item.path}`} exact>
-                        {item.component}
+            <div>
+                <Helmet title="Home 1" />
+                <Header />
+                <Switch>
+                    <Route path={path} exact>
+                        <Redirect
+                            to={{
+                                pathname: `${path}/intro`.replace(/([^:])(\/\/+)/g, "$1/"),
+                            }}
+                        />
                     </Route>
-                ))}
-                <Route component={RedirectAs404} />
-            </Switch>
+                    {routes.map((item, index) => (
+                        <Route key={index} path={`${path}${item.path}`} exact>
+                            {item.component}
+                        </Route>
+                    ))}
+                    <Route component={RedirectAs404} />
+                </Switch>
+            </div>
+            <Footer />
         </div>
     );
 }
