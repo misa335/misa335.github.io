@@ -68,7 +68,7 @@ function Intro() {
                             <span className="text">My Portfolio</span>
                         </button>
                         <button className="button button-lg button-dark">
-                            <span className="text">Read More</span>
+                            <span className="text">My Resume</span>
                         </button>
                     </div>
                 </Container>
