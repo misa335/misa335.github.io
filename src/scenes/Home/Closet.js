@@ -4,7 +4,7 @@ import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
 
-function YomiHomies() {
+function Closet() {
     return (
         <section className="section section-single-post section-single-post-1">
             <div className="display-spacing">
@@ -14,7 +14,7 @@ function YomiHomies() {
                             <div className="post-head">
                                 <div class="post-info">
                                     <GoBack />
-                                    <h1>YomiHomies</h1>
+                                    <h1>Misa's Closet</h1>
                                     {/* <p>
                                         <span className="category">Mobile App</span>
                                     </p>
@@ -25,7 +25,7 @@ function YomiHomies() {
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/yomihomies.png" alt="YomiHomies" />
+                                    <img src="/assets/images/blog/2-1.jpg" alt="Misa's Closet" />
                                 </div>
                                 <div className="post-content">
                                     <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
@@ -77,4 +77,4 @@ function YomiHomies() {
     );
 }
 
-export default YomiHomies;
+export default Closet;

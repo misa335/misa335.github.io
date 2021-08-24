@@ -17,6 +17,11 @@ import Helmet from "../../components/common/Helmet";
 import Switch from "../../components/common/Switch";
 import RedirectAs404 from "../../components/common/RedirectAs404";
 import YomiHomies from "./YomiHomies";
+import Neptune from "./Neptune";
+import Tweetie from "./Tweetie";
+import Foodie from "./Foodie";
+import Closet from "./Closet";
+import HappyBird from "./HappyBird";
 
 const routes = [
     {
@@ -46,6 +51,26 @@ const routes = [
     {
         path: "/portfolio/yomihomies",
         component: <YomiHomies />,
+    },
+    {
+        path: "/portfolio/mymizu-neptune",
+        component: <Neptune />,
+    },
+    {
+        path: "/portfolio/tweetie",
+        component: <Tweetie />,
+    },
+    {
+        path: "/portfolio/foodie",
+        component: <Foodie />,
+    },
+    {
+        path: "/portfolio/misa-closet",
+        component: <Closet />,
+    },
+    {
+        path: "/portfolio/happybird",
+        component: <HappyBird />,
     },
     {
         path: "/portfolio/single-post",
