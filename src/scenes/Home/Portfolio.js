@@ -235,7 +235,7 @@ function Portfolio() {
         <section className="section section-portfolio section-portfolio-1">
             <div className="display-spacing">
                 <Container className="container">
-                    <Headline label="Portfolio" title="My Projects" divider_1={true} position="center" />
+                    <Headline label="Events" title="My Events" divider_1={true} position="center" />
                     <Tabs className="el-tabs el-tabs-1" selectedTabClassName="active">
                         <TabList className="el-tabs-links">
                             {portfolio.map((category, categoryIndex) => (

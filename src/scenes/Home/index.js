@@ -7,7 +7,7 @@ import Intro from "./Intro";
 import Header from "./Header";
 import Footer from "./Footer";
 import Resume from "./Resume";
-import Service from "./Service";
+// import Service from "./Service";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 // import Testimonial from "./Testimonial";
@@ -30,10 +30,10 @@ const routes = [
         path: "/resume",
         component: <Resume />,
     },
-    {
-        path: "/service",
-        component: <Service />,
-    },
+    // {
+    //     path: "/service",
+    //     component: <Service />,
+    // },
     {
         path: "/portfolio",
         component: <Portfolio />,

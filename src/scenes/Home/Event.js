@@ -78,7 +78,7 @@ function Event() {
         <section className="section section-blog section-blog-1">
             <div className="display-spacing">
                 <Container className="container">
-                    <Headline label="Events" title="Let's See My Work" divider_1={true} position="center" />
+                    <Headline label="Portfolio" title="My Projects" divider_1={true} position="center" />
                     <Slider className="el-slider el-slider-plr--15" {...sliderSettings}>
                         {posts.map((item, index) => (
                             <div key={index} className="post-item">
