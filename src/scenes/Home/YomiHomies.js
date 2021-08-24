@@ -4,7 +4,7 @@ import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
 
-function BlogSinglePost() {
+function YomiHomies() {
     return (
         <section className="section section-single-post section-single-post-1">
             <div className="display-spacing">
@@ -14,20 +14,21 @@ function BlogSinglePost() {
                             <div className="post-head">
                                 <div class="post-info">
                                     <GoBack />
-                                    <h1>The Best Sale Marketer Of The Next Year</h1>
+                                    <h1>YomiHomies</h1>
                                     <p>
-                                        by <span className="author">Miranda Smith</span> in <span className="category">Business</span> on <span class="date">May 1, 2020</span>.
+                                        {/* <span className="author">Miranda Smith</span> */}
+                                        <span className="category">Mobile App</span> <span class="date">April, 2021</span>
                                     </p>
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/2-1.jpg" alt="Single Post" />
+                                    <img src="/assets/images/blog/yomihomies.png" alt="YomiHomies" />
                                 </div>
                                 <div className="post-content">
                                     <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
                                     <p>
-                                        <b>Key Features:</b>
+                                        <b>Technologies Used:</b>
                                     </p>
                                     <ul class="el-list-check">
                                         <li>
@@ -74,4 +75,4 @@ function BlogSinglePost() {
     );
 }
 
-export default BlogSinglePost;
+export default YomiHomies;

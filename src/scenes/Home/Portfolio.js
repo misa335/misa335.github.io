@@ -7,6 +7,13 @@ import Headline from "../../components/common/Headline";
 
 const posts = [
     {
+        title: "YomiHomies",
+        image: "/assets/images/blog/yomihomies.png",
+        date: "April, 2021",
+        link: "/yomihomies",
+        icon: "ti-light-bulb",
+    },
+    {
         title: "What has happened to all of the Design ideas?",
         image: "/assets/images/blog/2-1.jpg",
         date: "May 15th, 2019",

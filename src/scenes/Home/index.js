@@ -16,6 +16,7 @@ import BlogSinglePost from "./BlogSinglePost";
 import Helmet from "../../components/common/Helmet";
 import Switch from "../../components/common/Switch";
 import RedirectAs404 from "../../components/common/RedirectAs404";
+import YomiHomies from "./YomiHomies";
 
 const routes = [
     {
@@ -43,7 +44,11 @@ const routes = [
         component: <Event />,
     },
     {
-        path: "/blog/single-post",
+        path: "/portfolio/yomihomies",
+        component: <YomiHomies />,
+    },
+    {
+        path: "/portfolio/single-post",
         component: <BlogSinglePost />,
     },
     // {
