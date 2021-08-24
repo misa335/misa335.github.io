@@ -1,278 +1,108 @@
-import React, { useState } from "react";
-import { Container, Row, Col } from "react-grid-system";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Carousel, { Modal, ModalGateway } from "react-images";
-
+import React from "react";
+import Slider from "react-slick";
+import { Container } from "react-grid-system";
+import { Link, useRouteMatch } from "react-router-dom";
 // Components
 import Headline from "../../components/common/Headline";
 
-const portfolio = [
+const posts = [
     {
-        name: "All Works",
-        items: [
-            {
-                id: 0,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-1.jpg",
-                thumbnail: "/assets/images/portfolio/2-1.jpg",
-            },
-            {
-                id: 1,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-2.jpg",
-                thumbnail: "/assets/images/portfolio/2-2.jpg",
-            },
-            {
-                id: 2,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-3.jpg",
-                thumbnail: "/assets/images/portfolio/2-3.jpg",
-            },
-            {
-                id: 3,
-                title: "Crearive Design",
-                subtitle: "Web Design",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-4.jpg",
-                thumbnail: "/assets/images/portfolio/2-4.jpg",
-            },
-            {
-                id: 4,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-5.jpg",
-                thumbnail: "/assets/images/portfolio/2-5.jpg",
-            },
-            {
-                id: 5,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-6.jpg",
-                thumbnail: "/assets/images/portfolio/2-6.jpg",
-            },
-            {
-                id: 6,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-7.jpg",
-                thumbnail: "/assets/images/portfolio/2-7.jpg",
-            },
-            {
-                id: 7,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-8.jpg",
-                thumbnail: "/assets/images/portfolio/2-8.jpg",
-            },
-            {
-                id: 8,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-9.jpg",
-                thumbnail: "/assets/images/portfolio/2-9.jpg",
-            },
-            {
-                id: 9,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-10.jpg",
-                thumbnail: "/assets/images/portfolio/2-10.jpg",
-            },
-        ],
+        title: "What has happened to all of the Design ideas?",
+        image: "/assets/images/blog/2-1.jpg",
+        date: "May 15th, 2019",
+        link: "/single-post",
+        icon: "ti-light-bulb",
     },
     {
-        name: "Web Design",
-        items: [
-            {
-                id: 0,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-1.jpg",
-                thumbnail: "/assets/images/portfolio/2-1.jpg",
-            },
-            {
-                id: 1,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-2.jpg",
-                thumbnail: "/assets/images/portfolio/2-2.jpg",
-            },
-            {
-                id: 2,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-3.jpg",
-                thumbnail: "/assets/images/portfolio/2-3.jpg",
-            },
-            {
-                id: 3,
-                title: "Crearive Design",
-                subtitle: "Web Design",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-4.jpg",
-                thumbnail: "/assets/images/portfolio/2-4.jpg",
-            },
-        ],
+        title: "The Best Sale Marketer Of The Next Year",
+        image: "/assets/images/blog/2-2.jpg",
+        date: "May 18th, 2019",
+        link: "/single-post",
+        icon: "ti-mobile",
     },
     {
-        name: "Mobile Apps",
-        items: [
-            {
-                id: 4,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-5.jpg",
-                thumbnail: "/assets/images/portfolio/2-5.jpg",
-            },
-            {
-                id: 5,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-6.jpg",
-                thumbnail: "/assets/images/portfolio/2-6.jpg",
-            },
-            {
-                id: 6,
-                title: "Crearive Design",
-                subtitle: "Mobile Apps",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-7.jpg",
-                thumbnail: "/assets/images/portfolio/2-7.jpg",
-            },
-        ],
+        title: "What gets in the way of greate Stategy",
+        image: "/assets/images/blog/2-3.jpg",
+        date: "May 21h, 2019",
+        link: "/single-post",
+        icon: "ti-paint-bucket",
     },
     {
-        name: "Branding",
-        items: [
-            {
-                id: 7,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-8.jpg",
-                thumbnail: "/assets/images/portfolio/2-8.jpg",
-            },
-            {
-                id: 8,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-9.jpg",
-                thumbnail: "/assets/images/portfolio/2-9.jpg",
-            },
-            {
-                id: 9,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-10.jpg",
-                thumbnail: "/assets/images/portfolio/2-10.jpg",
-            },
-        ],
-    },
-];
-
-const images = [
-    {
-        src: "/assets/images/portfolio/2-1.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-2.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-3.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-4.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-5.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-6.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-7.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-8.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-9.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/2-10.jpg",
+        title: "How to create great logo for your Business",
+        image: "/assets/images/blog/2-4.jpg",
+        date: "May 21th, 2019",
+        link: "/single-post",
+        icon: "ti-light-bulb",
     },
 ];
 
 function Portfolio() {
-    const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-    const [selectedIndex, setSelectedIndex] = useState(0);
-
-    const toggleLightbox = (index) => {
-        setSelectedIndex(index);
-        setLightboxIsOpen(!lightboxIsOpen);
+    let sliderSettings = {
+        dots: true,
+        speed: 500,
+        arrows: false,
+        infinite: false,
+        initialSlide: 0,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        centerPadding: 30,
+        draggable: false,
+        responsive: [
+            {
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
     };
 
+    const { path } = useRouteMatch();
+
     return (
-        <section className="section section-portfolio section-portfolio-1">
+        <section className="section section-blog section-blog-1">
             <div className="display-spacing">
                 <Container className="container">
-                    <Headline label="Events" title="My Events" divider_1={true} position="center" />
-                    <Tabs className="el-tabs el-tabs-1" selectedTabClassName="active">
-                        <TabList className="el-tabs-links">
-                            {portfolio.map((category, categoryIndex) => (
-                                <Tab key={categoryIndex}>{category.name}</Tab>
-                            ))}
-                        </TabList>
-                        {portfolio.map((category, categoryIndex) => (
-                            <TabPanel key={categoryIndex}>
-                                <Row className="row-center mb--30">
-                                    {category.items.map((item, index) => (
-                                        <Col key={index} xs={6} sm={6} md={6} lg={3} xl={3} onClick={() => toggleLightbox(item.id)}>
-                                            <div className="portfolio-item">
-                                                <div className="portfolio-card">
-                                                    <div className="image overlay-image" style={{ backgroundImage: `url(${item.src})` }} />
-                                                    <div className="content">
-                                                        <button className="button button-circle button-icon button-circle-md button-primary">
-                                                            <span className="el-icon-icon ti-fullscreen"></span>
-                                                        </button>
-                                                        <span>{item.title}</span>
-                                                        <h3>{item.subtitle}</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    ))}
-                                </Row>
-                            </TabPanel>
+                    <Headline label="Portfolio" title="My Projects" divider_1={true} position="center" />
+                    <Slider className="el-slider el-slider-plr--15" {...sliderSettings}>
+                        {posts.map((item, index) => (
+                            <div key={index} className="post-item">
+                                <Link to={`${path}${item.link}`.replace(/([^:])(\/\/+)/g, "$1/")}>
+                                    <div className="post-image" style={{ backgroundImage: `url(${item.image})` }}></div>
+                                </Link>
+                                <div className="post-content">
+                                    <div className="el-icon">
+                                        <span className={`el-icon-icon ${item.icon}`}></span>
+                                    </div>
+                                    <div className="post-data">
+                                        <h4 className="post-title">
+                                            <Link to={`${path}${item.link}`.replace(/([^:])(\/\/+)/g, "$1/")}>{item.title}</Link>
+                                        </h4>
+                                        <div className="post-date">
+                                            <i className="ti-time"></i>
+                                            {item.date}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         ))}
-                    </Tabs>
+                    </Slider>
                 </Container>
-                <ModalGateway>
-                    {lightboxIsOpen ? (
-                        <Modal onClose={toggleLightbox}>
-                            <Carousel currentIndex={selectedIndex} views={images} />
-                        </Modal>
-                    ) : null}
-                </ModalGateway>
             </div>
         </section>
     );

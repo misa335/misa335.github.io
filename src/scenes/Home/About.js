@@ -78,7 +78,7 @@ function About() {
                                             </div>
                                             <div className="content">
                                                 <h5>Small Projects</h5>
-                                                <p>Python (Open CV/pyautogui)</p>
+                                                <p>Python (OpenCV/pyautogui)</p>
                                             </div>
                                         </div>
                                     </Col>
