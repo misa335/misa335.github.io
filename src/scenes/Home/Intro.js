@@ -1,8 +1,11 @@
 import React from "react";
 import Particles from "react-particles-js";
 import { Container } from "react-grid-system";
+import { Link, useRouteMatch } from "react-router-dom";
 
 function Intro() {
+    const { path } = useRouteMatch();
+
     return (
         <section className="section section-hero section-hero-2 overlay-image" style={{ backgroundImage: `url(/assets/images/hero/home.png)` }}>
             <span className="el-circle-side right"></span>
@@ -63,10 +66,12 @@ function Intro() {
                             <br />
                             Based in Tokyo, Japan
                         </h1>
+                        <Link to="//portfolio">
                         <button className="button button-lg button-primary">
                             <span className="wave"></span>
                             <span className="text">My Portfolio</span>
                         </button>
+                        </Link>
                         <button className="button button-lg button-dark">
                             <span className="text">My Resume</span>
                         </button>
