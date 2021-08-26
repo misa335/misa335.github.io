@@ -12,25 +12,27 @@ const portfolio = [
         items: [
             {
                 id: 0,
-                title: "Senior project presentation",
+                title: "YomiHomies",
                 link: "/portfolio-details",
-                subtitle: "Demo Day",
+                subtitle: "Senior project presentation",
                 src: "/assets/images/portfolio/demoday.png",
                 thumbnail: "/assets/images/portfolio/demoday.png",
+                article: "https://rpa-bank.com/column/26959/",
+                video: ""
             },
             {
                 id: 1,
-                title: "Tech Talk",
+                title: "A New Daily Life with AR",
                 link: "/portfolio-details",
-                subtitle: "A New Daily Life with AR",
+                subtitle: "Tech Talk",
                 src: "/assets/images/portfolio/techtalk.png",
                 thumbnail: "/assets/images/portfolio/techtalk.png",
             },
             {
                 id: 2,
-                title: "API project presentation",
+                title: "mymizu-neptune",
                 link: "/portfolio-details",
-                subtitle: "API Night",
+                subtitle: "API project presentation",
                 src: "/assets/images/portfolio/apinight.png",
                 thumbnail: "/assets/images/portfolio/apinight.png",
             },
@@ -142,25 +144,25 @@ const portfolio = [
         items: [
             {
                 id: 0,
-                title: "Senior project presentation",
+                title: "YomiHomies",
                 link: "/portfolio-details",
-                subtitle: "Demo Day",
+                subtitle: "Senior project presentation",
                 src: "/assets/images/portfolio/demoday.png",
                 thumbnail: "/assets/images/portfolio/demoday.png",
             },
             {
                 id: 1,
-                title: "Tech Talk",
+                title: "A New Daily Life with AR",
                 link: "/portfolio-details",
-                subtitle: "A New Daily Life with AR",
+                subtitle: "Tech Talk",
                 src: "/assets/images/portfolio/techtalk.png",
                 thumbnail: "/assets/images/portfolio/techtalk.png",
             },
             {
                 id: 2,
-                title: "API project presentation",
+                title: "mymizu-neptune",
                 link: "/portfolio-details",
-                subtitle: "API Night",
+                subtitle: "API project presentation",
                 src: "/assets/images/portfolio/apinight.png",
                 thumbnail: "/assets/images/portfolio/apinight.png",
             },
@@ -333,7 +335,6 @@ const images = [
 function Event() {
     const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(0);
-
     const toggleLightbox = (index) => {
         setSelectedIndex(index);
         setLightboxIsOpen(!lightboxIsOpen);
@@ -359,11 +360,14 @@ function Event() {
                                                 <div className="portfolio-card">
                                                     <div className="image overlay-image" style={{ backgroundImage: `url(${item.src})` }} />
                                                     <div className="content">
-                                                        <button className="button button-circle button-icon button-circle-md button-primary">
-                                                            <span className="el-icon-icon ti-fullscreen"></span>
+                                                        <button className="report button button-circle button-icon button-circle-md button-primary">
+                                                            <a href={item.article} target="_blank" rel="noopener noreferrer"><span className="el-icon-icon ti-fullscreen"></span></a>
                                                         </button>
-                                                        <span>{item.title}</span>
+                                                        <button className="video button button-circle button-icon button-circle-md button-primary">
+                                                            <a href={item.video} target="_blank" rel="noopener noreferrer"><span className="el-icon-icon ti-fullscreen"></span></a>
+                                                        </button>
                                                         <h3>{item.subtitle}</h3>
+                                                        <span>{item.title}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -374,13 +378,13 @@ function Event() {
                         ))}
                     </Tabs>
                 </Container>
-                <ModalGateway>
+                {/* <ModalGateway>
                     {lightboxIsOpen ? (
                         <Modal onClose={toggleLightbox}>
                             <Carousel currentIndex={selectedIndex} views={images} />
                         </Modal>
                     ) : null}
-                </ModalGateway>
+                </ModalGateway> */}
             </div>
         </section>
     );
