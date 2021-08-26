@@ -131,7 +131,7 @@ function Resume() {
                         </Col>
                         <Col md={6}>
                             <div className="resume-row">
-                                <h4 className="resume-title">Experience</h4>
+                                <h4 className="resume-title">Work Experience</h4>
                                 <ul>
                                     {experience.map((item, index) => (
                                         <li key={index}>
