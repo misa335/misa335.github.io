@@ -8,31 +8,31 @@ import Headline from "../../components/common/Headline";
 
 const portfolio = [
     {
-        name: "All Works",
+        name: "All Events",
         items: [
             {
                 id: 0,
-                title: "Crearive Design",
+                title: "Senior project presentation",
                 link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-1.jpg",
-                thumbnail: "/assets/images/portfolio/2-1.jpg",
+                subtitle: "Demo Day",
+                src: "/assets/images/portfolio/demoday.png",
+                thumbnail: "/assets/images/portfolio/demoday.png",
             },
             {
                 id: 1,
-                title: "Crearive Design",
+                title: "Tech Talk",
                 link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-2.jpg",
-                thumbnail: "/assets/images/portfolio/2-2.jpg",
+                subtitle: "A New Daily Life with AR",
+                src: "/assets/images/portfolio/techtalk.png",
+                thumbnail: "/assets/images/portfolio/techtalk.png",
             },
             {
                 id: 2,
-                title: "Crearive Design",
+                title: "API project presentation",
                 link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-3.jpg",
-                thumbnail: "/assets/images/portfolio/2-3.jpg",
+                subtitle: "API Night",
+                src: "/assets/images/portfolio/apinight.png",
+                thumbnail: "/assets/images/portfolio/apinight.png",
             },
             {
                 id: 3,
@@ -68,11 +68,11 @@ const portfolio = [
             },
             {
                 id: 7,
-                title: "Crearive Design",
-                subtitle: "Branding",
+                title: "Website dev Mentor",
+                subtitle: "Waffle Camp",
                 link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-8.jpg",
-                thumbnail: "/assets/images/portfolio/2-8.jpg",
+                src: "/assets/images/portfolio/waffle.png",
+                thumbnail: "/assets/images/portfolio/waffle.png",
             },
             {
                 id: 8,
@@ -93,31 +93,31 @@ const portfolio = [
         ],
     },
     {
-        name: "Web Design",
+        name: "Public Speaking",
         items: [
             {
                 id: 0,
-                title: "Crearive Design",
+                title: "Senior project presentation",
                 link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-1.jpg",
-                thumbnail: "/assets/images/portfolio/2-1.jpg",
+                subtitle: "Demo Day",
+                src: "/assets/images/portfolio/demoday.png",
+                thumbnail: "/assets/images/portfolio/demoday.png",
             },
             {
                 id: 1,
-                title: "Crearive Design",
+                title: "Tech Talk",
                 link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-2.jpg",
-                thumbnail: "/assets/images/portfolio/2-2.jpg",
+                subtitle: "A New Daily Life with AR",
+                src: "/assets/images/portfolio/techtalk.png",
+                thumbnail: "/assets/images/portfolio/techtalk.png",
             },
             {
                 id: 2,
-                title: "Crearive Design",
+                title: "API project presentation",
                 link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/2-3.jpg",
-                thumbnail: "/assets/images/portfolio/2-3.jpg",
+                subtitle: "API Night",
+                src: "/assets/images/portfolio/apinight.png",
+                thumbnail: "/assets/images/portfolio/apinight.png",
             },
             {
                 id: 3,
@@ -130,7 +130,7 @@ const portfolio = [
         ],
     },
     {
-        name: "Mobile Apps",
+        name: "Organizing",
         items: [
             {
                 id: 4,
@@ -159,15 +159,15 @@ const portfolio = [
         ],
     },
     {
-        name: "Branding",
+        name: "Mentoring",
         items: [
             {
                 id: 7,
-                title: "Crearive Design",
-                subtitle: "Branding",
+                title: "Website dev Mentor",
+                subtitle: "Waffle Camp",
                 link: "/portfolio-details",
-                src: "/assets/images/portfolio/2-8.jpg",
-                thumbnail: "/assets/images/portfolio/2-8.jpg",
+                src: "/assets/images/portfolio/waffle.png",
+                thumbnail: "/assets/images/portfolio/waffle.png",
             },
             {
                 id: 8,
@@ -191,13 +191,13 @@ const portfolio = [
 
 const images = [
     {
-        src: "/assets/images/portfolio/2-1.jpg",
+        src: "/assets/images/portfolio/demoday.png",
     },
     {
-        src: "/assets/images/portfolio/2-2.jpg",
+        src: "/assets/images/portfolio/techtalk.png",
     },
     {
-        src: "/assets/images/portfolio/2-3.jpg",
+        src: "/assets/images/portfolio/apinight.png",
     },
     {
         src: "/assets/images/portfolio/2-4.jpg",
@@ -212,7 +212,7 @@ const images = [
         src: "/assets/images/portfolio/2-7.jpg",
     },
     {
-        src: "/assets/images/portfolio/2-8.jpg",
+        src: "/assets/images/portfolio/waffle.png",
     },
     {
         src: "/assets/images/portfolio/2-9.jpg",
