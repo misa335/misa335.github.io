@@ -1,12 +1,10 @@
 import React from "react";
 import Particles from "react-particles-js";
 import { Container } from "react-grid-system";
-import { Link, useRouteMatch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
 function Intro() {
-    const { path } = useRouteMatch();
-
     return (
         <section className="section section-hero section-hero-2 overlay-image" style={{ backgroundImage: `url(/assets/images/hero/home.png)` }}>
             <span className="el-circle-side right"></span>
@@ -64,7 +62,7 @@ function Intro() {
                         </p>
                         
                         <h1>
-                            I am a 
+                            I am 
                             <Typewriter
                             // loop={true}
                             // autoStart={true}
@@ -79,7 +77,7 @@ function Intro() {
                             options={{
                                 autoStart:true,
                                 loop:true,
-                                strings:['Software Engineer.', 'Multipotentialite.', 'JP & EN Bilingual.']
+                                strings:['a Software Engineer.', 'a Multipotentialite.', 'Bilingual (JP & EN).']
                             }}
                         />
                             Based in Tokyo, Japan

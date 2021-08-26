@@ -25,7 +25,7 @@ function HappyBird() {
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/2-1.jpg" alt="Happy Bird" />
+                                    <img src="/assets/images/blog/happybird.png" alt="Happy Bird" />
                                 </div>
                                 <div className="post-content">
                                     <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
