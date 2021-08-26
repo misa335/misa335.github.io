@@ -94,11 +94,11 @@ function Header() {
                                 <i className="ti-twitter-alt"></i>
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="https://www.instagram.com/misapipipink/">
                                 <i className="ti-instagram"></i>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                     <p>Follow Me</p>
                 </div>
@@ -135,11 +135,11 @@ function Header() {
                                     <FaTwitter className="icon" />
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="https://www.instagram.com/misapipipink/">
                                     <FaInstagram className="icon" />
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                         <p>Follow Me</p>
                     </div>

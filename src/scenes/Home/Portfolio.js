@@ -15,14 +15,14 @@ const posts = [
     },
     {
         title: "mymizu neptune",
-        image: "/assets/images/blog/2-1.jpg",
+        image: "/assets/images/blog/neptune.png",
         date: "April, 2021",
         link: "/mymizu-neptune",
         icon: "ti-paint-bucket",
     },
     {
         title: "Tweetie",
-        image: "/assets/images/blog/2-2.jpg",
+        image: "/assets/images/blog/tweetie.png",
         date: "August, 2021",
         link: "/tweetie",
         icon: "ti-mobile",
