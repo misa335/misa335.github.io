@@ -2,6 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import { Container } from "react-grid-system";
 import { Link, useRouteMatch } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 function Intro() {
     const { path } = useRouteMatch();
@@ -61,9 +62,26 @@ function Intro() {
                         <p className="el-icon">
                             <span className="el-icon-title">I'm Misako Kondoh.</span>
                         </p>
+                        
                         <h1>
-                            I'm a Software Engineer
-                            <br />
+                            I am a 
+                            <Typewriter
+                            // loop={true}
+                            // autoStart={true}
+                            // onInit={(typewriter)=> {
+                            //     typewriter
+                            //     .typeString("I'm a Software Engineer.")
+                            //     .pauseFor(1000)
+                            //     .deleteChars(18)
+                            //     .typeString("Multipotentialite.")
+                            //     .deleteAll()
+                            //}}
+                            options={{
+                                autoStart:true,
+                                loop:true,
+                                strings:['Software Engineer.', 'Multipotentialite.', 'JP & EN Bilingual.']
+                            }}
+                        />
                             Based in Tokyo, Japan
                         </h1>
                         <Link to="//portfolio">

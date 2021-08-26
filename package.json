@@ -23,7 +23,8 @@
     "react-text-loop": "^2.3.0",
     "react-transition-group": "^4.4.1",
     "slick-carousel": "^1.8.1",
-    "themify-icons-sass": "^1.0.1"
+    "themify-icons-sass": "^1.0.1",
+    "typewriter-effect": "^2.18.0"
   },
   "scripts": {
     "start": "react-scripts start",
