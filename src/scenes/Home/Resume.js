@@ -54,6 +54,13 @@ const education = [
 ];
 const experience = [
     {
+        title: "Website Dev Mentor",
+        subtitle: "Waffle Org. | Tokyo",
+        description: "Mentoring at Waffle Camp.",
+        date: "(Aug 2020-Present)",
+        icon: "ti-pencil-alt",
+    },
+    {
         title: "Tech Mentor",
         subtitle: "Code Chrysalis | Tokyo",
         description: "Provided technical support focusing on sprints, which is cumbersome, and often requires time to understand. Interacted with students that felt anxious or troubled, and helped them to stay motivated. Worked to improve the program by modifying the sprints, adding translations of explanations of procedures, and conducting surveys of graduates.",
