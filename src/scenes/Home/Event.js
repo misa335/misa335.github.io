@@ -13,116 +13,114 @@ const portfolio = [
             {
                 id: 0,
                 title: "YomiHomies",
-                link: "/portfolio-details",
                 subtitle: "Senior project presentation",
+                link: "https://youtu.be/S9GBXQEosK4?t=514",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/demoday.png",
-                thumbnail: "/assets/images/portfolio/demoday.png",
-                article: "https://rpa-bank.com/column/26959/",
-                video: ""
             },
             {
                 id: 1,
                 title: "A New Daily Life with AR",
-                link: "/portfolio-details",
                 subtitle: "Tech Talk",
+                link: "https://youtu.be/IPYm1Ce8ACU?t=10906",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/techtalk.png",
-                thumbnail: "/assets/images/portfolio/techtalk.png",
             },
             {
                 id: 2,
                 title: "mymizu-neptune",
-                link: "/portfolio-details",
                 subtitle: "API project presentation",
+                link: "https://youtu.be/vwMpFxsuQgQ?t=2818",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/apinight.png",
-                thumbnail: "/assets/images/portfolio/apinight.png",
             },
             {
                 id: 3,
                 title: "Website dev Mentor",
                 subtitle: "Waffle Camp",
-                link: "/portfolio-details",
+                link: "https://waffle-waffle.org/program/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/waffle.png",
-                thumbnail: "/assets/images/portfolio/waffle.png",
             },
             {
                 id: 4,
                 title: "Nagoya vol.1",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/26959/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoyagirls1.jpg",
-                thumbnail: "/assets/images/portfolio/nagoyagirls1.jpg",
             },
             {
                 id: 5,
                 title: "Nagoya vol.2",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/28112/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoyagirls2.jpg",
-                thumbnail: "/assets/images/portfolio/nagoyagirls2.jpg",
             },
             {
                 id: 6,
                 title: "May 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/31770/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/girls5.png",
-                thumbnail: "/assets/images/portfolio/girls5.png",
             },
             {
                 id: 7,
                 title: "October 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/wVVZjKZunhM",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls10.png",
-                thumbnail: "/assets/images/portfolio/girls10.png",
             },
             {
                 id: 8,
                 title: "Hands-on Feb 2020",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/30280/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/handson.jpg",
-                thumbnail: "/assets/images/portfolio/handson.jpg",
             },
             {
                 id: 9,
                 title: "Mie vol.1",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/27166/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/mie.jpg",
-                thumbnail: "/assets/images/portfolio/mie.jpg",
             },
             {
                 id: 10,
                 title: "August 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/mny87lp8dhY",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls8.png",
-                thumbnail: "/assets/images/portfolio/girls8.png",
             },
             {
                 id: 11,
                 title: "December 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/3SQt9Bqr0hk",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls12.png",
-                thumbnail: "/assets/images/portfolio/girls12.png",
             },
             {
                 id: 12,
                 title: "vol.18 Feb 2020",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/29203/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/rpa18.jpg",
-                thumbnail: "/assets/images/portfolio/rpa18.jpg",
             },
             {
                 id: 13,
                 title: "Nagoya vol.2",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/27277/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoya2.jpg",
-                thumbnail: "/assets/images/portfolio/nagoya2.jpg",
             },
         ],
     },
@@ -133,9 +131,9 @@ const portfolio = [
                 id: 3,
                 title: "Website dev Mentor",
                 subtitle: "Waffle Camp",
-                link: "/portfolio-details",
+                link: "https://waffle-waffle.org/program/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/waffle.png",
-                thumbnail: "/assets/images/portfolio/waffle.png",
             },
         ],
     },
@@ -145,74 +143,74 @@ const portfolio = [
             {
                 id: 0,
                 title: "YomiHomies",
-                link: "/portfolio-details",
                 subtitle: "Senior project presentation",
+                link: "https://youtu.be/S9GBXQEosK4?t=514",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/demoday.png",
-                thumbnail: "/assets/images/portfolio/demoday.png",
             },
             {
                 id: 1,
                 title: "A New Daily Life with AR",
-                link: "/portfolio-details",
                 subtitle: "Tech Talk",
+                link: "https://youtu.be/IPYm1Ce8ACU?t=10906",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/techtalk.png",
-                thumbnail: "/assets/images/portfolio/techtalk.png",
             },
             {
                 id: 2,
                 title: "mymizu-neptune",
-                link: "/portfolio-details",
                 subtitle: "API project presentation",
+                link: "https://youtu.be/vwMpFxsuQgQ?t=2818",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/apinight.png",
-                thumbnail: "/assets/images/portfolio/apinight.png",
             },
             {
                 id: 4,
                 title: "Nagoya vol.1",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/26959/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoyagirls1.jpg",
-                thumbnail: "/assets/images/portfolio/nagoyagirls1.jpg",
             },
             {
                 id: 5,
                 title: "Nagoya vol.2",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/28112/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoyagirls2.jpg",
-                thumbnail: "/assets/images/portfolio/nagoyagirls2.jpg",
             },
             {
                 id: 6,
                 title: "May 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/31770/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/girls5.png",
-                thumbnail: "/assets/images/portfolio/girls5.png",
             },
             {
                 id: 7,
                 title: "October 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/wVVZjKZunhM",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls10.png",
-                thumbnail: "/assets/images/portfolio/girls10.png",
             },
             {
                 id: 8,
                 title: "Hands-on Feb 2020",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/30280/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/handson.jpg",
-                thumbnail: "/assets/images/portfolio/handson.jpg",
             },
             {
                 id: 9,
                 title: "Mie vol.1",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/27166/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/mie.jpg",
-                thumbnail: "/assets/images/portfolio/mie.jpg",
             },
         ],
     },
@@ -223,122 +221,77 @@ const portfolio = [
                 id: 4,
                 title: "Nagoya vol.1",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/26959/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoyagirls1.jpg",
-                thumbnail: "/assets/images/portfolio/nagoyagirls1.jpg",
             },
             {
                 id: 5,
                 title: "Nagoya vol.2",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/28112/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoyagirls2.jpg",
-                thumbnail: "/assets/images/portfolio/nagoyagirls2.jpg",
             },
             {
                 id: 6,
                 title: "May 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/31770/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/girls5.png",
-                thumbnail: "/assets/images/portfolio/girls5.png",
             },
             {
                 id: 7,
                 title: "October 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/wVVZjKZunhM",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls10.png",
-                thumbnail: "/assets/images/portfolio/girls10.png",
             },
             {
                 id: 10,
                 title: "August 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/mny87lp8dhY",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls8.png",
-                thumbnail: "/assets/images/portfolio/girls8.png",
             },
             {
                 id: 11,
                 title: "December 2020",
                 subtitle: "RPA Community Girls",
-                link: "/portfolio-details",
+                link: "https://youtu.be/3SQt9Bqr0hk",
+                icon: "ti-youtube",
                 src: "/assets/images/portfolio/girls12.png",
-                thumbnail: "/assets/images/portfolio/girls12.png",
             },
             {
                 id: 12,
                 title: "vol.18 Feb 2020",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/29203/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/rpa18.jpg",
-                thumbnail: "/assets/images/portfolio/rpa18.jpg",
             },
             {
                 id: 13,
                 title: "Nagoya vol.2",
                 subtitle: "RPA Community",
-                link: "/portfolio-details",
+                link: "https://rpa-bank.com/column/27277/",
+                icon: "ti-write",
                 src: "/assets/images/portfolio/nagoya2.jpg",
-                thumbnail: "/assets/images/portfolio/nagoya2.jpg",
             },
         ],
     },
 ];
 
-const images = [
-    {
-        src: "/assets/images/portfolio/demoday.png",
-    },
-    {
-        src: "/assets/images/portfolio/techtalk.png",
-    },
-    {
-        src: "/assets/images/portfolio/apinight.png",
-    },
-    {
-        src: "/assets/images/portfolio/waffle.png",
-    },
-    {
-        src: "/assets/images/portfolio/nagoyagirls1.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/nagoyagirls2.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/girls5.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/girls10.png",
-    },
-    {
-        src: "/assets/images/portfolio/handson.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/mie.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/girls8.png",
-    },
-    {
-        src: "/assets/images/portfolio/girls12.png",
-    },
-    {
-        src: "/assets/images/portfolio/rpa18.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/nagoya2.jpg",
-    },
-];
-
 function Event() {
-    const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-    const [selectedIndex, setSelectedIndex] = useState(0);
-    const toggleLightbox = (index) => {
-        setSelectedIndex(index);
-        setLightboxIsOpen(!lightboxIsOpen);
-    };
+    // const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
+    // const [selectedIndex, setSelectedIndex] = useState(0);
+    // const toggleLightbox = (index) => {
+    //     setSelectedIndex(index);
+    //     setLightboxIsOpen(!lightboxIsOpen);
+    // };
 
     return (
         <section className="section section-portfolio section-portfolio-1">
@@ -355,16 +308,13 @@ function Event() {
                             <TabPanel key={categoryIndex}>
                                 <Row className="row-center mb--30">
                                     {category.items.map((item, index) => (
-                                        <Col key={index} xs={6} sm={6} md={6} lg={3} xl={3} onClick={() => toggleLightbox(item.id)}>
+                                        <Col key={index} xs={6} sm={6} md={6} lg={3} xl={3} >
                                             <div className="portfolio-item">
                                                 <div className="portfolio-card">
                                                     <div className="image overlay-image" style={{ backgroundImage: `url(${item.src})` }} />
                                                     <div className="content">
                                                         <button className="report button button-circle button-icon button-circle-md button-primary">
-                                                            <a href={item.article} target="_blank" rel="noopener noreferrer"><span className="el-icon-icon ti-fullscreen"></span></a>
-                                                        </button>
-                                                        <button className="video button button-circle button-icon button-circle-md button-primary">
-                                                            <a href={item.video} target="_blank" rel="noopener noreferrer"><span className="el-icon-icon ti-fullscreen"></span></a>
+                                                            <a href={item.link} target="_blank" rel="noopener noreferrer"><span className={`el-icon-icon ${item.icon}`}></span></a>
                                                         </button>
                                                         <h3>{item.subtitle}</h3>
                                                         <span>{item.title}</span>
