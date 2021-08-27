@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaGooglePlay, FaYoutube, FaGithub } from "react-icons/fa";
 import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
@@ -28,43 +28,45 @@ function YomiHomies() {
                                     <img src="/assets/images/blog/yomihomies.png" alt="YomiHomies" />
                                 </div>
                                 <div className="post-content">
-                                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
+                                    <p>A matching app for book lovers to connect with like-minded people.Set up your profile and add your favorite books, authors, and genres. Then start swiping to find some homies. Once matched, you can chat with your new homie.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
                                     <ul class="el-list-check">
                                         <li>
                                             <FaCheck className="icon" />
-                                            Clean Code
+                                            React Native
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            Modern Design
+                                            Expo
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            Great Support
+                                            Google Books API
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            High Resolution
+                                            AWS Amplyfy:<br/>
+                                            ・Cognito for authentication <br/>
+                                            ・DynamoDB with AppSync and GraphQL API
                                         </li>
                                     </ul>
-                                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-                                    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+                                    <p>・Oversaw engineering of Platform-specific implementation for a team of 4 within 3 weeks.</p>
+                                    <p>・Built front end interface with React Native using Expo for testing on Android and iOS devices.</p>
+                                    <p>・Used the Google Books API to display candidates to perform matching by book title; the titles of the books to be registered would match perfectly; preventing input errors.</p>
                                 </div>
                                 <div class="post-tags">
-                                    <span>Tags:</span>
+                                    <span>Links:</span>
                                     <ul>
                                         <li>
-                                            <a href="/#">Business</a>
+                                            <a href="https://bit.ly/3CXhtAN" target="_blank" rel="noopener noreferrer"><FaGooglePlay /></a>
                                         </li>
                                         <li>
-                                            <a href="/#">Marketing</a>
+                                            <a href="https://youtu.be/S9GBXQEosK4?t=514" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
                                         </li>
                                         <li>
-                                            <a href="/#">Corporate</a>
+                                            <a href="https://github.com/Book-Meet/YomiHomies" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                         </li>
                                     </ul>
                                 </div>
