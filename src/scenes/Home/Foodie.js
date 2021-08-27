@@ -28,37 +28,45 @@ function Foodie() {
                                     <img src="/assets/images/blog/foodie.png" alt="Foodie" />
                                 </div>
                                 <div className="post-content">
-                                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
+                                    <p>An app that allows users to create a list of eateries.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
                                     <ul class="el-list-check">
                                         <li>
                                             <FaCheck className="icon" />
-                                            Clean Code
+                                            Front-end:<br/>
+                                            　・React.js <br/>
+                                            　・Material-UI
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            Modern Design
+                                            Back-end:<br/>
+                                            　・Node.js <br/>
+                                            　・Express.js <br/>
+                                            　・Knex.js <br/>
+                                            　・PostgreSQL
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            Great Support
+                                            Data and APIs:<br/>
+                                            　・HotPepper API
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <FaCheck className="icon" />
-                                            High Resolution
-                                        </li>
+                                            Deployment and CI/CD collaboration:<br/>
+                                            　・Heroku
+                                        </li> */}
                                     </ul>
-                                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-                                    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+                                    <p>・Built a front end interface with React and Axios.</p>
+                                    <p>・Used Material-UI to design the front end.</p>
+                                    <p>・Created using a RESTful API server in Node.js and Express.js to utilize existing user data from 3rd party API.</p>
                                 </div>
                                 <div class="post-tags">
                                 <span>Link:</span>
                                     <ul>
                                         <li>
-                                            <a href="https://github.com/misa335/rails-tweetapp" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                                            <a href="https://github.com/misa335/gourmet-api" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                         </li>
                                     </ul>
                                 </div>

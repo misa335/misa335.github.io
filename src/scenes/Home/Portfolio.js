@@ -30,7 +30,7 @@ const posts = [
     {
         title: "Foodie",
         image: "/assets/images/blog/foodie2.png",
-        date: "June, 2019",
+        date: "June, 2021",
         link: "/foodie",
         icon: "ti-light-bulb",
     },
