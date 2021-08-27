@@ -48,8 +48,8 @@ function YomiHomies() {
                                         <li>
                                             <FaCheck className="icon" />
                                             AWS Amplyfy:<br/>
-                                            ・Cognito for authentication <br/>
-                                            ・DynamoDB with AppSync and GraphQL API
+                                            　・Cognito for authentication <br/>
+                                            　・DynamoDB with AppSync and GraphQL API
                                         </li>
                                     </ul>
                                     <p>・Oversaw engineering of Platform-specific implementation for a team of 4 within 3 weeks.</p>
