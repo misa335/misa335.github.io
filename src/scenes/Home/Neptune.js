@@ -65,11 +65,11 @@ function Neptune() {
                                     <p>・Made in collaboration with mymizu to add functionality to mymizu's existing apps.</p>
                                     <p>・Created using a RESTful API server in Node.js and Express.js to utilize existing user data from mymizu’s API.</p>
                                     <p>・Built a front end interface with React and Axios for a team of 4 within 3 days.</p>
-                                    <p>・Create a professional UI design myself and recreate the same design as the original app　to come up with a new feature for an app that was actually in production.</p>
+                                    <p>・Create a professional UI design myself and recreate the same design as the original app to come up with a new feature for the app that was actually in production.</p>
                                     <p>・Continuously integrated and deployed software to Heroku.</p>
                                 </div>
                                 <div class="post-tags">
-                                    <span>Tags:</span>
+                                    <span>Links:</span>
                                     <ul>
                                         <li>
                                             <a href="https://mymizu-neptune.herokuapp.com/main" target="_blank" rel="noopener noreferrer"><FaMobileAlt /></a>

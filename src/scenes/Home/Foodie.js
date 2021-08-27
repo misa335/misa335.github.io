@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaGithub } from "react-icons/fa";
 import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
@@ -55,16 +55,10 @@ function Foodie() {
                                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
                                 </div>
                                 <div class="post-tags">
-                                    <span>Tags:</span>
+                                <span>Link:</span>
                                     <ul>
                                         <li>
-                                            <a href="/#">Business</a>
-                                        </li>
-                                        <li>
-                                            <a href="/#">Marketing</a>
-                                        </li>
-                                        <li>
-                                            <a href="/#">Corporate</a>
+                                            <a href="https://github.com/misa335/rails-tweetapp" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                         </li>
                                     </ul>
                                 </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaGamepad } from "react-icons/fa";
 import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
@@ -35,19 +35,7 @@ function HappyBird() {
                                     <ul class="el-list-check">
                                         <li>
                                             <FaCheck className="icon" />
-                                            Clean Code
-                                        </li>
-                                        <li>
-                                            <FaCheck className="icon" />
-                                            Modern Design
-                                        </li>
-                                        <li>
-                                            <FaCheck className="icon" />
-                                            Great Support
-                                        </li>
-                                        <li>
-                                            <FaCheck className="icon" />
-                                            High Resolution
+                                            Scratch
                                         </li>
                                     </ul>
                                     <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
@@ -55,16 +43,10 @@ function HappyBird() {
                                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
                                 </div>
                                 <div class="post-tags">
-                                    <span>Tags:</span>
+                                    <span>Link:</span>
                                     <ul>
                                         <li>
-                                            <a href="/#">Business</a>
-                                        </li>
-                                        <li>
-                                            <a href="/#">Marketing</a>
-                                        </li>
-                                        <li>
-                                            <a href="/#">Corporate</a>
+                                            <a href="https://scratch.mit.edu/projects/532243461" target="_blank" rel="noopener noreferrer"><FaGamepad /></a>
                                         </li>
                                     </ul>
                                 </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaGithub } from "react-icons/fa";
 import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
@@ -28,43 +28,31 @@ function Tweetie() {
                                     <img src="/assets/images/blog/tweetie.png" alt="Tweetie" />
                                 </div>
                                 <div className="post-content">
-                                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
+                                    <p>An app that allows users to post tweets.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
                                     <ul class="el-list-check">
                                         <li>
                                             <FaCheck className="icon" />
-                                            Clean Code
+                                            Ruby / Ruby on Rails
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            Modern Design
+                                            SCSS
                                         </li>
                                         <li>
                                             <FaCheck className="icon" />
-                                            Great Support
-                                        </li>
-                                        <li>
-                                            <FaCheck className="icon" />
-                                            High Resolution
+                                            sqlite3
                                         </li>
                                     </ul>
-                                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-                                    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                                </div>
+                                    <p>・Created using a RESTful API server in Ruby on Rails.</p>
+                                    <p>・Built a front end interface, and created a user authentication function with Ruby on Rails. </p>                                </div>
                                 <div class="post-tags">
-                                    <span>Tags:</span>
+                                    <span>Link:</span>
                                     <ul>
                                         <li>
-                                            <a href="/#">Business</a>
-                                        </li>
-                                        <li>
-                                            <a href="/#">Marketing</a>
-                                        </li>
-                                        <li>
-                                            <a href="/#">Corporate</a>
+                                            <a href="https://github.com/misa335/rails-tweetapp" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                         </li>
                                     </ul>
                                 </div>
