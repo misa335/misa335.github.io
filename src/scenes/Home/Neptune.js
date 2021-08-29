@@ -28,7 +28,7 @@ function Neptune() {
                                     <img src="/assets/images/blog/neptune.png" alt="mymizu neptune" />
                                 </div>
                                 <div className="post-content">
-                                    <p>MyMizu provides a crowd-sourced platform for locations where you can get water with your water bottle to encourage users to consume less bottled water. We've created an app prototype with following enhanced features. Users can review on water refill spots and find a route with water refill spots around.</p>
+                                    <p className="first">An app that allows users to enter a route and search for <a href="https://www.mymizu.co/" target="_blank" rel="noopener noreferrer"><i>mymizu</i></a> water points between a starting point and destination.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -62,11 +62,14 @@ function Neptune() {
                                             　・Slack
                                         </li>
                                     </ul>
-                                    <p>・Made in collaboration with mymizu to add functionality to mymizu's existing apps.</p>
-                                    <p>・Created using a RESTful API server in Node.js and Express.js to utilize existing user data from mymizu’s API.</p>
-                                    <p>・Built a front end interface with React and Axios for a team of 4 within 3 days.</p>
-                                    <p>・Create a professional UI design myself and recreate the same design as the original app to come up with a new feature for the app that was actually in production.</p>
-                                    <p>・Continuously integrated and deployed software to Heroku.</p>
+                                    <div className="second">
+                                        <p>・mymizu provides a cloud-sourced platform for locations where users can refill their own water bottles.</p>
+                                        <p>・Collaborated with mymizu to add functionality to mymizu's existing apps.</p>
+                                        <p>・Implemented using a <b>RESTful API</b> server in <b>Node.js</b> and <b>Express.js</b> to utilize existing user data from mymizu’s API.</p>
+                                        <p>・Built a front end interface with <b>React</b> and <b>Axios</b> for a team of 4 within 3 days.</p>
+                                        <p>・Replicated a professional UI design as an original app.</p>
+                                        <p>・Continuously integrated and deployed software to <b>Heroku</b>.</p>
+                                    </div>
                                 </div>
                                 <div class="post-tags">
                                     <span>Links:</span>
