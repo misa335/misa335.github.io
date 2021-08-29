@@ -5,7 +5,7 @@ import ProgressBar from "../../components/common/ProgressBar";
 
 const skills = [
     {
-        title: "Web Apps",
+        title: "Web Apps Development",
         percent: 100,
     },
     {
@@ -17,7 +17,7 @@ const skills = [
         percent: 90,
     },
     {
-        title: "Business Process Remodeling",
+        title: "Business Process Re-engineering",
         percent: 100,
     },
     {
@@ -54,9 +54,9 @@ const education = [
 ];
 const experience = [
     {
-        title: "Website Dev Mentor",
+        title: "Tech Mentor at Waffle Camp",
         subtitle: "Waffle Org. | Tokyo",
-        description: "Mentoring at Waffle Camp.",
+        description: "Coached how to initialize VS Code and develop a website with HTML & CSS. 1-on-1 mentoring session. Encouraged teenage girls to enjoy coding.",
         date: "(Aug 2020-Present)",
         icon: "ti-pencil-alt",
     },
