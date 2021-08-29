@@ -88,7 +88,7 @@ function About() {
                                                 <span className="el-icon-icon ti-mobile"></span>
                                             </div>
                                             <div className="content">
-                                                <h5>Business Process Automation</h5>
+                                                <h5>Business Process Re-engineering</h5>
                                                 <p>RPA (Automation Anywhere/WinActor)</p>
                                             </div>
                                         </div>
