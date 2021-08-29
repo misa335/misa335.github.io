@@ -28,7 +28,7 @@ function Foodie() {
                                     <img src="/assets/images/blog/foodie.png" alt="Foodie" />
                                 </div>
                                 <div className="post-content">
-                                    <p>An app that allows users to create a list of eateries.</p>
+                                    <p className="first">An app that allows users to create a list of eateries.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -58,9 +58,11 @@ function Foodie() {
                                             　・Heroku
                                         </li> */}
                                     </ul>
-                                    <p>・Built a front end interface with React and Axios.</p>
-                                    <p>・Used Material-UI to design the front end.</p>
-                                    <p>・Created using a RESTful API server in Node.js and Express.js to utilize existing user data from 3rd party API.</p>
+                                    <div className="second">
+                                        <p>・Rolled out a front end interface with <b>React</b> and <b>Axios</b>.</p>
+                                        <p>・Augmented <b>Material-UI</b> to design the front end.</p>
+                                        <p>・Created using a <b>RESTful API</b> server in <b>Node.js</b> and <b>Express.js</b> to utilize existing user data from 3rd party API.</p>
+                                    </div>
                                 </div>
                                 <div class="post-tags">
                                 <span>Link:</span>
