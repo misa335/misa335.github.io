@@ -41,7 +41,7 @@ function About() {
                                     <Col xs={12} sm={12} md={6}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
-                                                <span className="el-icon-icon ti-image"></span>
+                                                <span className="el-icon-icon ti-notepad"></span>
                                             </div>
                                             <div className="content">
                                                 <h5>Web Apps</h5>
@@ -52,7 +52,7 @@ function About() {
                                     <Col xs={12} sm={12} md={6}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
-                                                <span className="el-icon-icon ti-brush-alt"></span>
+                                                <span className="el-icon-icon ti-palette"></span>
                                             </div>
                                             <div className="content">
                                                 <h5>Web Apps</h5>
@@ -63,7 +63,7 @@ function About() {
                                     <Col xs={12} sm={12} md={6}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
-                                                <span className="el-icon-icon ti-ruler-pencil"></span>
+                                                <span className="el-icon-icon ti-mobile"></span>
                                             </div>
                                             <div className="content">
                                                 <h5>Mobile Apps</h5>
@@ -74,7 +74,7 @@ function About() {
                                     <Col xs={12} sm={12} md={6}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
-                                                <span className="el-icon-icon ti-ruler-pencil"></span>
+                                                <span className="el-icon-icon ti-gallery"></span>
                                             </div>
                                             <div className="content">
                                                 <h5>Small Projects</h5>
@@ -85,7 +85,7 @@ function About() {
                                     <Col xs={12} sm={12} md={6}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
-                                                <span className="el-icon-icon ti-mobile"></span>
+                                                <span className="el-icon-icon ti-agenda"></span>
                                             </div>
                                             <div className="content">
                                                 <h5>Business Process Re-engineering</h5>
