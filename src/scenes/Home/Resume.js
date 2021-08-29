@@ -9,11 +9,11 @@ const skills = [
         percent: 100,
     },
     {
-        title: "Mobile Apps",
+        title: "Mobile Apps Development",
         percent: 80,
     },
     {
-        title: "Business Process Automation",
+        title: "Customer Service",
         percent: 90,
     },
     {
@@ -26,7 +26,7 @@ const skills = [
     },
     {
         title: "Marketing online",
-        percent: 75,
+        percent: 70,
     },
 ];
 const education = [
@@ -44,13 +44,6 @@ const education = [
         date: "(Apr 2007-Mar 2011)",
         icon: "ti-cup",
     },
-    // {
-    //     title: "Stanford University",
-    //     subtitle: "Web Design Course | New York",
-    //     description: "Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.",
-    //     date: "(2016-2018)",
-    //     icon: "ti-ruler-alt-2",
-    // },
 ];
 const experience = [
     {
@@ -63,7 +56,7 @@ const experience = [
     {
         title: "Tech Mentor",
         subtitle: "Code Chrysalis | Tokyo",
-        description: "Provided technical support such as how to set up a knex.js file for a full stack app for the first time. Conferred algorithm quizzes and demonstrating the solutions. Interacted with students that felt anxious or troubled, and encouraged them to stay motivated. Worked to improve the program by modifying the sprints, adding translations of explanations of procedures, and conducting surveys of graduates.",
+        description: "Provided technical support such as how to set up a knex.js file for a full stack app for the first time. Conferred algorithm quizzes and demonstrating the solutions. Interacted with students that felt anxious or troubled, and encouraged them to stay motivated. Improved the program by modifying the sprints, adding translations of explanations of procedures, and conducting surveys of graduates.",
         date: "(May 2021-Aug 2021)",
         icon: "ti-pencil-alt",
     },
@@ -84,14 +77,14 @@ const experience = [
     {
         title: "Course Director (Dance)",
         subtitle: "Avex Management | Nagoya",
-        description: "100% of the target value for new students that enrolled in July 2017 was achieved. (Customer acquisition in April - June 2017) Organized dance workshops and achieved a 60% profit margin by publicizing and attracting customers through email newsletters, the school's portal site, blogs, etc.",
+        description: "100% of the target value for new students that enrolled in July 2017 was achieved. (Customer acquisition in April - June 2017) Organized dance workshops and achieved a 60% profit margin by utilizing social media.",
         date: "(Jan 2017-Jun 2017)",
         icon: "ti-heart",
     },
     {
         title: "High School Teacher (Science)",
         subtitle: "Sugiyama Jogakuen High School | Nagoya",
-        description: "Taught an average of 200 students each year. Taught students to understand concepts and rationale and to develop logical thinking rather than simply having students learn as knowledge Coached the dance team in which we earned  a first and second place finish in the Chubu region competition. Led the team to the national competition.",
+        description: "Taught an average of 200 students each year to understand concepts and rationale in developing logical thinking rather than simply having students learn as knowledge. Coached the dance team; earned a first and second place finish in the region competition. Led the team to the nationals.",
         date: "(Apr 2013-Dec 2016)",
         icon: "ti-ruler-alt-2",
     },
