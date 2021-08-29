@@ -28,7 +28,7 @@ function Tweetie() {
                                     <img src="/assets/images/blog/tweetie.png" alt="Tweetie" />
                                 </div>
                                 <div className="post-content">
-                                    <p>An app that allows users to post tweets.</p>
+                                    <p className="first">An app that allows users to post tweets.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -46,8 +46,11 @@ function Tweetie() {
                                             sqlite3
                                         </li>
                                     </ul>
-                                    <p>・Created using a RESTful API server in Ruby on Rails.</p>
-                                    <p>・Built a front end interface, and created a user authentication function with Ruby on Rails. </p>                                </div>
+                                    <div className="second">
+                                        <p>・Developed using a <b>RESTful API</b> server in <b>Ruby on Rails</b>.</p>
+                                        <p>・Built a front end interface, and created a user authentication function with <b>Ruby on Rails</b>. </p>
+                                    </div>
+                                </div>
                                 <div class="post-tags">
                                     <span>Link:</span>
                                     <ul>
