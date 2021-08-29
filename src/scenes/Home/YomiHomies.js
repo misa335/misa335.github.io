@@ -28,7 +28,7 @@ function YomiHomies() {
                                     <img src="/assets/images/blog/yomihomies.png" alt="YomiHomies" />
                                 </div>
                                 <div className="post-content">
-                                    <p>A matching app for book lovers to connect with like-minded people.Set up your profile and add your favorite books, authors, and genres. Then start swiping to find some homies. Once matched, you can chat with your new homie.</p>
+                                    <p className="first">A matching app for book lovers to connect with like-minded people. Set up your profile and add your favorite books, authors, and genres. Then start swiping to find some homies. Once matched, you can chat with your new homie.</p>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -52,9 +52,11 @@ function YomiHomies() {
                                             　・DynamoDB with AppSync and GraphQL API
                                         </li>
                                     </ul>
-                                    <p>・Oversaw engineering of Platform-specific implementation for a team of 4 within 3 weeks.</p>
-                                    <p>・Built front end interface with React Native using Expo for testing on Android and iOS devices.</p>
-                                    <p>・Used the Google Books API to display candidates to perform matching by book title; the titles of the books to be registered would match perfectly; preventing input errors.</p>
+                                    <div className="second">
+                                        <p>・Oversaw engineering of <b>Platform-specific</b> implementation for a team of 4 within 3 weeks.</p>
+                                        <p>・Designed front end interface with <b>React Native</b> using <b>Expo</b> for testing on Android and iOS devices.</p>
+                                        <p>・Utilized the Google Books API to display candidates to perform matching by book title; the book titles to be registered would match perfectly; preventing input errors.</p>
+                                    </div>
                                 </div>
                                 <div class="post-tags">
                                     <span>Links:</span>

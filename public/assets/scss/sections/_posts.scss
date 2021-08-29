@@ -114,6 +114,15 @@
             }
             .post-content {
                 margin-bottom: 30px;
+
+                .first {
+                    text-indent: 1em;
+                }
+
+                .second {
+                    text-indent: -1em;
+                    padding-left: 1em;
+                }
             }
         }
     }
