@@ -106,7 +106,7 @@ function Header() {
             <div className={`app-sidenav ${displaySidenav && "active"}`}>
                 <div className="sidenav-menu">
                     <div className="logo">
-                        <Link to="/">Misa</Link>
+                        <Link to="/">Misa.</Link>
                     </div>
                     <button className="button" onClick={(e) => handleClick(e)}></button>
                     <ul className="sidenav-nav">
