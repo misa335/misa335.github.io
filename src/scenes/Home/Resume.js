@@ -63,7 +63,7 @@ const experience = [
     {
         title: "Tech Mentor",
         subtitle: "Code Chrysalis | Tokyo",
-        description: "Provided technical support focusing on sprints, which is cumbersome, and often requires time to understand. Interacted with students that felt anxious or troubled, and helped them to stay motivated. Worked to improve the program by modifying the sprints, adding translations of explanations of procedures, and conducting surveys of graduates.",
+        description: "Provided technical support such as how to set up a knex.js file for a full stack app for the first time. Conferred algorithm quizzes and demonstrating the solutions. Interacted with students that felt anxious or troubled, and encouraged them to stay motivated. Worked to improve the program by modifying the sprints, adding translations of explanations of procedures, and conducting surveys of graduates.",
         date: "(May 2021-Aug 2021)",
         icon: "ti-pencil-alt",
     },
