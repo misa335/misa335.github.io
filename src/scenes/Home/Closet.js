@@ -29,6 +29,7 @@ function Closet() {
                                 </div>
                                 <div className="post-content">
                                     <p className="first">A fashion e-commerce website.</p>
+                                    <br/>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -46,10 +47,20 @@ function Closet() {
                                             MySQL
                                         </li>
                                     </ul>
+                                    <br/>
                                     <div className="second">
-                                        {/* <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                                        <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-                                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p> */}
+                                        <p>・Built a front-end interface for the product list page and the product detail page.</p>
+                                        <p>・Developed using a <b>RESTful API</b> server in <b>Laravel</b>.</p>
+                                    </div>
+                                    <br/>
+                                    <p>
+                                        <b>Future Features:</b>
+                                    </p>
+                                    <div className="second">
+                                        <p>・Payment functions using the Stripe API.</p>
+                                        <p>・User Authentication</p>
+                                        <p>・Implementation of posting and displaying user reviews.</p>
+                                        <p>・UI design for fashion lovers.</p>
                                     </div>
                                 </div>
                                 <div class="post-tags">

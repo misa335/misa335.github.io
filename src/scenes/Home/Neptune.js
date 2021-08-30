@@ -29,6 +29,7 @@ function Neptune() {
                                 </div>
                                 <div className="post-content">
                                     <p className="first">An app that allows users to enter a route and search for <a href="https://www.mymizu.co/" target="_blank" rel="noopener noreferrer"><i>mymizu</i></a> water points between a starting point and destination.</p>
+                                    <br/>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -62,6 +63,7 @@ function Neptune() {
                                             　・Slack
                                         </li>
                                     </ul>
+                                    <br/>
                                     <div className="second">
                                         <p>・mymizu provides a cloud-sourced platform for locations where users can refill their own water bottles.</p>
                                         <p>・Collaborated with mymizu to add functionality to mymizu's existing apps.</p>

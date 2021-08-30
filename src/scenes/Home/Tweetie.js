@@ -29,6 +29,7 @@ function Tweetie() {
                                 </div>
                                 <div className="post-content">
                                     <p className="first">An app that allows users to post tweets.</p>
+                                    <br/>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -46,6 +47,7 @@ function Tweetie() {
                                             sqlite3
                                         </li>
                                     </ul>
+                                    <br/>
                                     <div className="second">
                                         <p>・Developed using a <b>RESTful API</b> server in <b>Ruby on Rails</b>.</p>
                                         <p>・Built a front end interface, and created a user authentication function with <b>Ruby on Rails</b>. </p>

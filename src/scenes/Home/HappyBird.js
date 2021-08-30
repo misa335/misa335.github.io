@@ -28,7 +28,8 @@ function HappyBird() {
                                     <img src="/assets/images/blog/happybird.png" alt="Happy Bird" />
                                 </div>
                                 <div className="post-content">
-                                    <p className="first">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blanditvel, luctus pulvinar, hendrerit id, lorem.</p>
+                                    <p className="first">A mini game created in Scratch.</p>
+                                    <br/>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -38,10 +39,11 @@ function HappyBird() {
                                             Scratch
                                         </li>
                                     </ul>
+                                    <br/>
                                     <div className="second">
-                                        {/* <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                                        <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-                                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p> */}
+                                        <p>・Created as part of Harvard's CS50 assignment.</p>
+                                        <p>・Designed animations of a bird flying(bird wings, background transitions).</p>
+                                        <p>・Implemented an algorithm to increase or decrease the score when hitting an object.</p>
                                     </div>
                                 </div>
                                 <div class="post-tags">
