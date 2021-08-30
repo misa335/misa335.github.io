@@ -63,7 +63,7 @@ const experience = [
     {
         title: "RPA Engineer/RPA Instructor/Lead CRM",
         subtitle: "TECHVAN | Tokyo",
-        description: ["・Automated the repetitive tasks which reduced my department's workload by 500 hours per year.", "・Planned and launched RPA seminars, created seminar programs, prepared textbooks, and conducted seminars.", "・Launched Twitter and YouTube platforms, planned and created content, and managed the accounts.", "・Responded to technical questions from customers and provided support for development."],
+        description: ["・Automated the repetitive tasks which reduced my department's workload by 500 hours per year.", "・Planned, launched and conducted RPA seminars, created seminar programs, prepared textbooks.", "・Launched Twitter and YouTube platforms, planned and created content, and managed the accounts.", "・Responded to technical questions from customers and provided support for development."],
         date: "(Feb 2020-Jan 2020)",
         icon: "ti-agenda",
     },
