@@ -59,7 +59,7 @@ function Foodie() {
                                         <b>Future Features:</b>
                                     </p>
                                     <div className="second">
-                                        <p>・Implementation of the Favorite button and the Places to Go button.</p>
+                                        <p>・Implementation of the "favorite" button and the "places to go" button.</p>
                                         <p>・Posting function to social media.</p>
                                         <p>・Display eatery on Google Map.</p>
                                     </div>
