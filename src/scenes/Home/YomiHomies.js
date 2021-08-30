@@ -29,6 +29,7 @@ function YomiHomies() {
                                 </div>
                                 <div className="post-content">
                                     <p className="first">A matching app for book lovers to connect with like-minded people. Set up your profile and add your favorite books, authors, and genres. Then start swiping to find some homies. Once matched, you can chat with your new homie.</p>
+                                    <br/>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -52,6 +53,7 @@ function YomiHomies() {
                                             　・DynamoDB with AppSync and GraphQL API
                                         </li>
                                     </ul>
+                                    <br/>
                                     <div className="second">
                                         <p>・Oversaw engineering of <b>Platform-specific</b> implementation for a team of 4 within 3 weeks.</p>
                                         <p>・Designed front end interface with <b>React Native</b> using <b>Expo</b> for testing on Android and iOS devices.</p>

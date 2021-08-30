@@ -29,6 +29,7 @@ function Foodie() {
                                 </div>
                                 <div className="post-content">
                                     <p className="first">An app that allows users to create a list of eateries.</p>
+                                    <br/>
                                     <p>
                                         <b>Technologies Used:</b>
                                     </p>
@@ -58,11 +59,13 @@ function Foodie() {
                                             　・Heroku
                                         </li> */}
                                     </ul>
+                                    <br/>
                                     <div className="second">
                                         <p>・Rolled out a front end interface with <b>React</b> and <b>Axios</b>.</p>
                                         <p>・Augmented <b>Material-UI</b> to design the front end.</p>
                                         <p>・Created using a <b>RESTful API</b> server in <b>Node.js</b> and <b>Express.js</b> to utilize existing user data from 3rd party API.</p>
                                     </div>
+                                    <br/>
                                     <p>
                                         <b>Future Features:</b>
                                     </p>
