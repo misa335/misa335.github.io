@@ -63,6 +63,14 @@ function Foodie() {
                                         <p>・Augmented <b>Material-UI</b> to design the front end.</p>
                                         <p>・Created using a <b>RESTful API</b> server in <b>Node.js</b> and <b>Express.js</b> to utilize existing user data from 3rd party API.</p>
                                     </div>
+                                    <p>
+                                        <b>Future Features:</b>
+                                    </p>
+                                    <div className="second">
+                                        <p>・Implementation of the Favorite button and the Places to Go button.</p>
+                                        <p>・Posting function to social media.</p>
+                                        <p>・Display eatery on Google Map.</p>
+                                    </div>
                                 </div>
                                 <div class="post-tags">
                                 <span>Link:</span>
