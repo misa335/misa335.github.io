@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink, Link } from "react-router-dom";
-import { FaTwitter, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-// Components
-// import DemoOptions from "../../components/common/DemoOptions";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const links = [
     {
@@ -53,7 +51,6 @@ function Header() {
         <>
             <header className="app-header app-header-1">
                 <div className="header-logo">
-                    {/* <Link to={`url`.replace(/([^:])(\/\/+)/g, "$1/")}>Misa.</Link> */}
                     <Link to="/">Misa.</Link>
                 </div>
                 <button className="button button-menu" onClick={(e) => handleClick(e)}>
@@ -94,11 +91,6 @@ function Header() {
                                 <i className="ti-twitter-alt"></i>
                             </a>
                         </li>
-                        {/* <li>
-                            <a href="https://www.instagram.com/misapipipink/">
-                                <i className="ti-instagram"></i>
-                            </a>
-                        </li> */}
                     </ul>
                     <p>Follow Me</p>
                 </div>
@@ -135,18 +127,12 @@ function Header() {
                                     <FaTwitter className="icon" />
                                 </a>
                             </li>
-                            {/* <li>
-                                <a href="https://www.instagram.com/misapipipink/">
-                                    <FaInstagram className="icon" />
-                                </a>
-                            </li> */}
                         </ul>
                         <p>Follow Me</p>
                     </div>
                 </div>
                 <span className="sidenav-close" />
             </div>
-            {/* <DemoOptions /> */}
         </>
     );
 }

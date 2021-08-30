@@ -97,15 +97,15 @@
 
                 ul {
                     list-style: none;
-                    display: inline-block;
-                    padding: 0 0 0 15px;
+                    display: block;
+                    padding: 0 0 0 30px;
 
                     li {
                         display: inline-block;
-                        font-size: 14px;
+                        font-size: 25px;
                         font-weight: 500;
-                        margin-right: 9px;
-                        margin-bottom: 3px;
+                        margin-right: 25px;
+                        margin-top: 8px;
                     }
                 }
                 > span {
@@ -114,6 +114,15 @@
             }
             .post-content {
                 margin-bottom: 30px;
+
+                .first {
+                    text-indent: 1em;
+                }
+
+                .second {
+                    text-indent: -1em;
+                    padding-left: 1em;
+                }
             }
         }
     }

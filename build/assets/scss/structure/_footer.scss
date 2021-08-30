@@ -1,0 +1,23 @@
+.app-footer {
+    z-index: 99;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+
+    .footer-menu {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 2px 0;
+        color: $base-0;
+        font-size: x-small;
+        position: fixed;
+        overflow: auto;
+        white-space: nowrap;
+        margin-bottom: 0;
+        background: $base-1;
+        -ms-overflow-style: none;
+        border-bottom: 1px solid $primary;
+    }
+}

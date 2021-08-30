@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Carousel, { Modal, ModalGateway } from "react-images";
 
 // Components
 import Headline from "../../components/common/Headline";
@@ -286,13 +285,6 @@ const portfolio = [
 ];
 
 function Event() {
-    // const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-    // const [selectedIndex, setSelectedIndex] = useState(0);
-    // const toggleLightbox = (index) => {
-    //     setSelectedIndex(index);
-    //     setLightboxIsOpen(!lightboxIsOpen);
-    // };
-
     return (
         <section className="section section-portfolio section-portfolio-1">
             <div className="display-spacing">
@@ -328,13 +320,6 @@ function Event() {
                         ))}
                     </Tabs>
                 </Container>
-                {/* <ModalGateway>
-                    {lightboxIsOpen ? (
-                        <Modal onClose={toggleLightbox}>
-                            <Carousel currentIndex={selectedIndex} views={images} />
-                        </Modal>
-                    ) : null}
-                </ModalGateway> */}
             </div>
         </section>
     );
