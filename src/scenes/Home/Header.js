@@ -80,17 +80,17 @@ function Header() {
                 <div className="header-follow">
                     <ul>
                         <li>
-                            <a href="https://github.com/misa335">
+                            <a href="https://github.com/misa335" target="_blank" rel="noopener noreferrer">
                                 <i className="ti-github"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/misa-k-engineer/">
+                            <a href="https://www.linkedin.com/in/misa-k-engineer/" target="_blank" rel="noopener noreferrer">
                                 <i className="ti-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/misas2pink">
+                            <a href="https://twitter.com/misas2pink" target="_blank" rel="noopener noreferrer">
                                 <i className="ti-twitter-alt"></i>
                             </a>
                         </li>
@@ -121,17 +121,17 @@ function Header() {
                     <div className="sidenav-links">
                         <ul>
                             <li>
-                                <a href="https://github.com/misa335">
+                                <a href="https://github.com/misa335" target="_blank" rel="noopener noreferrer">
                                     <FaGithub className="icon" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/misa-k-engineer/">
+                                <a href="https://www.linkedin.com/in/misa-k-engineer/" target="_blank" rel="noopener noreferrer">
                                     <FaLinkedin className="icon" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/misas2pink">
+                                <a href="https://twitter.com/misas2pink" target="_blank" rel="noopener noreferrer">
                                     <FaTwitter className="icon" />
                                 </a>
                             </li>
