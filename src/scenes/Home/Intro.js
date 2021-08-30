@@ -88,9 +88,11 @@ function Intro() {
                             <span className="text">My Portfolio</span>
                         </button>
                         </Link>
-                        <button className="button button-lg button-dark">
-                            <span className="text">My Resume</span>
-                        </button>
+                        <a href="https://drive.google.com/file/d/1iF5TqXgEuyTg1gQ22KupS8_QOlNtKkih/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <button className="button button-lg button-dark">
+                                <span className="text">My Resume</span>
+                            </button>
+                        </a>
                     </div>
                 </Container>
             </div>
