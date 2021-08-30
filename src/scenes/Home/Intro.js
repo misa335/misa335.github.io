@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 
 function Intro() {
     return (
-        <section className="section section-hero section-hero-2 overlay-image" style={{ backgroundImage: `url(/assets/images/hero/home.png)` }}>
+        <section className="section section-hero section-hero-2 overlay-image" style={{ backgroundImage: `url(/assets/images/home/home.png)` }}>
             <span className="el-circle-side right"></span>
             <Particles
                 params={{
@@ -64,16 +64,6 @@ function Intro() {
                         <h1>
                             I am 
                             <Typewriter
-                            // loop={true}
-                            // autoStart={true}
-                            // onInit={(typewriter)=> {
-                            //     typewriter
-                            //     .typeString("I'm a Software Engineer.")
-                            //     .pauseFor(1000)
-                            //     .deleteChars(18)
-                            //     .typeString("Multipotentialite.")
-                            //     .deleteAll()
-                            //}}
                             options={{
                                 autoStart:true,
                                 loop:true,

@@ -15,17 +15,11 @@ function Neptune() {
                                 <div class="post-info">
                                     <GoBack />
                                     <h1>mymizu neptune</h1>
-                                    {/* <p>
-                                        <span className="category">Mobile App</span>
-                                    </p>
-                                    <p>
-                                        <span class="date">April, 2021</span>
-                                    </p> */}
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/neptune.png" alt="mymizu neptune" />
+                                    <img src="/assets/images/project/neptune.png" alt="mymizu neptune" />
                                 </div>
                                 <div className="post-content">
                                     <p className="first">An app that allows users to enter a route and search for <a href="https://www.mymizu.co/" target="_blank" rel="noopener noreferrer"><i>mymizu</i></a> water points between a starting point and destination.</p>

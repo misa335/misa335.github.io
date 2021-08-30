@@ -15,17 +15,11 @@ function Closet() {
                                 <div class="post-info">
                                     <GoBack />
                                     <h1>Misa's Closet</h1>
-                                    {/* <p>
-                                        <span className="category">Mobile App</span>
-                                    </p>
-                                    <p>
-                                        <span class="date">April, 2021</span>
-                                    </p> */}
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/closet.png" alt="Misa's Closet" />
+                                    <img src="/assets/images/project/closet.png" alt="Misa's Closet" />
                                 </div>
                                 <div className="post-content">
                                     <p className="first">A fashion e-commerce website.</p>

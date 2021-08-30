@@ -15,17 +15,11 @@ function HappyBird() {
                                 <div class="post-info">
                                     <GoBack />
                                     <h1>Happy Bird</h1>
-                                    {/* <p>
-                                        <span className="category">Mobile App</span>
-                                    </p>
-                                    <p>
-                                        <span class="date">April, 2021</span>
-                                    </p> */}
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/happybird.png" alt="Happy Bird" />
+                                    <img src="/assets/images/project/happybird.png" alt="Happy Bird" />
                                 </div>
                                 <div className="post-content">
                                     <p className="first">A mini game created in Scratch.</p>

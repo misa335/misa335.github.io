@@ -15,7 +15,7 @@ const portfolio = [
                 subtitle: "Senior project presentation",
                 link: "https://youtu.be/S9GBXQEosK4?t=514",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/demoday.png",
+                src: "/assets/images/event/demoday.png",
             },
             {
                 id: 1,
@@ -23,7 +23,7 @@ const portfolio = [
                 subtitle: "Tech Talk",
                 link: "https://youtu.be/IPYm1Ce8ACU?t=10906",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/techtalk.png",
+                src: "/assets/images/event/techtalk.png",
             },
             {
                 id: 2,
@@ -31,7 +31,7 @@ const portfolio = [
                 subtitle: "API project presentation",
                 link: "https://youtu.be/vwMpFxsuQgQ?t=2818",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/apinight.png",
+                src: "/assets/images/event/apinight.png",
             },
             {
                 id: 3,
@@ -39,7 +39,7 @@ const portfolio = [
                 subtitle: "Waffle Camp",
                 link: "https://waffle-waffle.org/program/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/waffle.png",
+                src: "/assets/images/event/waffle.png",
             },
             {
                 id: 4,
@@ -47,7 +47,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/26959/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoyagirls1.jpg",
+                src: "/assets/images/event/nagoyagirls1.jpg",
             },
             {
                 id: 5,
@@ -55,7 +55,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/28112/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoyagirls2.jpg",
+                src: "/assets/images/event/nagoyagirls2.jpg",
             },
             {
                 id: 6,
@@ -63,7 +63,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/31770/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/girls5.png",
+                src: "/assets/images/event/girls5.png",
             },
             {
                 id: 7,
@@ -71,7 +71,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/wVVZjKZunhM",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls10.png",
+                src: "/assets/images/event/girls10.png",
             },
             {
                 id: 8,
@@ -79,7 +79,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/30280/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/handson.jpg",
+                src: "/assets/images/event/handson.jpg",
             },
             {
                 id: 9,
@@ -87,7 +87,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/27166/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/mie.jpg",
+                src: "/assets/images/event/mie.jpg",
             },
             {
                 id: 10,
@@ -95,7 +95,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/mny87lp8dhY",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls8.png",
+                src: "/assets/images/event/girls8.png",
             },
             {
                 id: 11,
@@ -103,7 +103,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/3SQt9Bqr0hk",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls12.png",
+                src: "/assets/images/event/girls12.png",
             },
             {
                 id: 12,
@@ -111,7 +111,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/29203/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/rpa18.jpg",
+                src: "/assets/images/event/rpa18.jpg",
             },
             {
                 id: 13,
@@ -119,7 +119,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/27277/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoya2.jpg",
+                src: "/assets/images/event/nagoya2.jpg",
             },
         ],
     },
@@ -132,7 +132,7 @@ const portfolio = [
                 subtitle: "Waffle Camp",
                 link: "https://waffle-waffle.org/program/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/waffle.png",
+                src: "/assets/images/event/waffle.png",
             },
         ],
     },
@@ -145,7 +145,7 @@ const portfolio = [
                 subtitle: "Senior project presentation",
                 link: "https://youtu.be/S9GBXQEosK4?t=514",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/demoday.png",
+                src: "/assets/images/event/demoday.png",
             },
             {
                 id: 1,
@@ -153,7 +153,7 @@ const portfolio = [
                 subtitle: "Tech Talk",
                 link: "https://youtu.be/IPYm1Ce8ACU?t=10906",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/techtalk.png",
+                src: "/assets/images/event/techtalk.png",
             },
             {
                 id: 2,
@@ -161,7 +161,7 @@ const portfolio = [
                 subtitle: "API project presentation",
                 link: "https://youtu.be/vwMpFxsuQgQ?t=2818",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/apinight.png",
+                src: "/assets/images/event/apinight.png",
             },
             {
                 id: 4,
@@ -169,7 +169,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/26959/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoyagirls1.jpg",
+                src: "/assets/images/event/nagoyagirls1.jpg",
             },
             {
                 id: 5,
@@ -177,7 +177,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/28112/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoyagirls2.jpg",
+                src: "/assets/images/event/nagoyagirls2.jpg",
             },
             {
                 id: 6,
@@ -185,7 +185,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/31770/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/girls5.png",
+                src: "/assets/images/event/girls5.png",
             },
             {
                 id: 7,
@@ -193,7 +193,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/wVVZjKZunhM",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls10.png",
+                src: "/assets/images/event/girls10.png",
             },
             {
                 id: 8,
@@ -201,7 +201,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/30280/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/handson.jpg",
+                src: "/assets/images/event/handson.jpg",
             },
             {
                 id: 9,
@@ -209,7 +209,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/27166/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/mie.jpg",
+                src: "/assets/images/event/mie.jpg",
             },
         ],
     },
@@ -222,7 +222,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/26959/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoyagirls1.jpg",
+                src: "/assets/images/event/nagoyagirls1.jpg",
             },
             {
                 id: 5,
@@ -230,7 +230,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/28112/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoyagirls2.jpg",
+                src: "/assets/images/event/nagoyagirls2.jpg",
             },
             {
                 id: 6,
@@ -238,7 +238,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://rpa-bank.com/column/31770/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/girls5.png",
+                src: "/assets/images/event/girls5.png",
             },
             {
                 id: 7,
@@ -246,7 +246,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/wVVZjKZunhM",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls10.png",
+                src: "/assets/images/event/girls10.png",
             },
             {
                 id: 10,
@@ -254,7 +254,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/mny87lp8dhY",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls8.png",
+                src: "/assets/images/event/girls8.png",
             },
             {
                 id: 11,
@@ -262,7 +262,7 @@ const portfolio = [
                 subtitle: "RPA Community Girls",
                 link: "https://youtu.be/3SQt9Bqr0hk",
                 icon: "ti-youtube",
-                src: "/assets/images/portfolio/girls12.png",
+                src: "/assets/images/event/girls12.png",
             },
             {
                 id: 12,
@@ -270,7 +270,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/29203/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/rpa18.jpg",
+                src: "/assets/images/event/rpa18.jpg",
             },
             {
                 id: 13,
@@ -278,7 +278,7 @@ const portfolio = [
                 subtitle: "RPA Community",
                 link: "https://rpa-bank.com/column/27277/",
                 icon: "ti-write",
-                src: "/assets/images/portfolio/nagoya2.jpg",
+                src: "/assets/images/event/nagoya2.jpg",
             },
         ],
     },

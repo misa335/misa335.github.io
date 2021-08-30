@@ -6,13 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import "./index.scss";
 
 // Scenes
-// import Demo from "./scenes/Demo";
-// import Home from "./scenes/Home";
 import Home from "./scenes/Home";
-// import Home3 from "./scenes/Home3";
-// import Home4 from "./scenes/Home4";
-// import Home5 from "./scenes/Home5";
-// import Home6 from "./scenes/Home6";
 
 // Components
 import Error404 from "./components/common/Error404";
@@ -23,12 +17,6 @@ const Root = () => {
         <div>
             <Switch>
                 <Route path="/" component={Home} />
-                {/* <Route path="/home-1" component={Home} />
-                <Route path="/home-2" component={Home2} />
-                <Route path="/home-3" component={Home3} />
-                <Route path="/home-4" component={Home4} />
-                <Route path="/home-5" component={Home5} />
-                <Route path="/home-6" component={Home6} /> */}
                 <Route component={RedirectAs404} />
             </Switch>
         </div>

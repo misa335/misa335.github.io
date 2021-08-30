@@ -15,17 +15,11 @@ function Tweetie() {
                                 <div class="post-info">
                                     <GoBack />
                                     <h1>Tweetie</h1>
-                                    {/* <p>
-                                        <span className="category">Mobile App</span>
-                                    </p>
-                                    <p>
-                                        <span class="date">April, 2021</span>
-                                    </p> */}
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/tweetie.png" alt="Tweetie" />
+                                    <img src="/assets/images/project/tweetie.png" alt="Tweetie" />
                                 </div>
                                 <div className="post-content">
                                     <p className="first">An app that allows users to post tweets.</p>

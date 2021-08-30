@@ -15,17 +15,11 @@ function YomiHomies() {
                                 <div class="post-info">
                                     <GoBack />
                                     <h1>YomiHomies</h1>
-                                    {/* <p>
-                                        <span className="category">Mobile App</span>
-                                    </p>
-                                    <p>
-                                        <span class="date">April, 2021</span>
-                                    </p> */}
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/yomihomies.png" alt="YomiHomies" />
+                                    <img src="/assets/images/project/yomihomies.png" alt="YomiHomies" />
                                 </div>
                                 <div className="post-content">
                                     <p className="first">A matching app for book lovers to connect with like-minded people. Set up your profile and add your favorite books, authors, and genres. Then start swiping to find some homies. Once matched, you can chat with your new homie.</p>

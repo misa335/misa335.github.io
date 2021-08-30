@@ -15,17 +15,11 @@ function Foodie() {
                                 <div class="post-info">
                                     <GoBack />
                                     <h1>Foodie</h1>
-                                    {/* <p>
-                                        <span className="category">Mobile App</span>
-                                    </p>
-                                    <p>
-                                        <span class="date">April, 2021</span>
-                                    </p> */}
                                 </div>
                             </div>
                             <div className="post-body">
                                 <div className="post-image">
-                                    <img src="/assets/images/blog/foodie.png" alt="Foodie" />
+                                    <img src="/assets/images/project/foodie.png" alt="Foodie" />
                                 </div>
                                 <div className="post-content">
                                     <p className="first">An app that allows users to create a list of eateries.</p>
@@ -53,11 +47,6 @@ function Foodie() {
                                             Data and APIs:<br/>
                                             　・HotPepper API
                                         </li>
-                                        {/* <li>
-                                            <FaCheck className="icon" />
-                                            Deployment and CI/CD collaboration:<br/>
-                                            　・Heroku
-                                        </li> */}
                                     </ul>
                                     <br/>
                                     <div className="second">

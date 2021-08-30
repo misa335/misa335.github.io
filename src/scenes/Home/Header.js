@@ -15,10 +15,6 @@ const links = [
         title: "Resume",
         path: "/resume",
     },
-    // {
-    //     title: "Service",
-    //     path: "/service",
-    // },
     {
         title: "Portfolio",
         path: "/portfolio",
@@ -27,10 +23,6 @@ const links = [
         title: "Event",
         path: "/event",
     },
-    // {
-    //     title: "Testimonial",
-    //     path: "/testimonial",
-    // },
     {
         title: "Contact",
         path: "/contact",
