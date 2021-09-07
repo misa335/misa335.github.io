@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck, FaGithub } from "react-icons/fa";
+import { FaCheck, FaGithub, FaComments } from "react-icons/fa";
 import { Container } from "react-grid-system";
 // Components
 import GoBack from "../../components/common/GoBack";
@@ -50,6 +50,9 @@ function Tweetie() {
                                 <div class="post-tags">
                                     <span>Link:</span>
                                     <ul>
+                                        <li>
+                                            <a href="https://tweetieapp.herokuapp.com" target="_blank" rel="noopener noreferrer"><FaComments /></a>
+                                        </li>
                                         <li>
                                             <a href="https://github.com/misa335/rails-tweetapp" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                                         </li>
