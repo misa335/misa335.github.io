@@ -77,7 +77,7 @@ const experience = [
     {
         title: "Course Director (Dance)",
         subtitle: "Avex Management | Nagoya",
-        description: ["・100% of the target value for new students that enrolled in July 2017 was achieved. (Customer acquisition in April - June 2017)", "・Organized dance workshops and achieved a 60% profit margin by utilizing social media."],
+        description: ["・Achieved 100% of the target value for new students that enrolled in July 2017. (Customer acquisition in April - June 2017)", "・Organized dance workshops and achieved a 60% profit margin by utilizing social media."],
         date: "(Jan 2017-Jun 2017)",
         icon: "ti-microphone",
     },
