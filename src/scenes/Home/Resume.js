@@ -49,7 +49,7 @@ const experience = [
     {
         title: "Tech Mentor at Waffle Camp",
         subtitle: "Waffle Org. | Tokyo",
-        description: ["・Coached how to initialize VS Code and develop a website with HTML & CSS.","・1-on-1 mentoring session.", "・Encouraged teenage girls to enjoy coding."],
+        description: ["・Waffle's vision is to close the gender gap by empowering and educating women in the technology field.", "・Coached how to initialize VS Code and develop a website with HTML & CSS.","・Mentored 1-on-1 session of how to design headers, internal links, backgrounds, and how to utilize flexbox.", "・Encouraged teenage girls to enjoy coding."],
         date: "(Aug 2020-Present)",
         icon: "ti-marker-alt",
     },
