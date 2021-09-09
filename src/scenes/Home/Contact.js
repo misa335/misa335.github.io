@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Hidden, Row, Col } from "react-grid-system";
+import { init, send } from "emailjs-com";
 
 function Contact() {
     const [name, setName] = useState("");
@@ -20,23 +21,44 @@ function Contact() {
 
     const formSubmit = (e) => {
         alert(`Thank you for your message from ${email}`);
-        const templateId = 'template_xsqqxe7';
-        const serviceID = 'full_name';
-        sendFeedback(serviceID, templateId, { from_name: name, message: message, reply_to: email });
+        // const templateId = 'template_xsqqxe7';
+        // const serviceID = 'full_name';
+        // sendFeedback(serviceID, templateId, { from_name: name, message: message, reply_to: email });
+        sendMessage();
         setName("");
         setEmail("");
         setMessage("");
     }
 
-    const sendFeedback = (serviceID, templateId, variables) => {
-        window.emailjs.send(
-            serviceID, templateId,
-            variables
+    const sendMessage = () => {
+        const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+        const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+        const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+        init(userId);
+
+        const variables = {
+            from_name: name,
+            message: message,
+            reply_to: email,
+        };
+
+        send(
+            serviceId, templateId, variables
         ).then(res => {
             console.log('Email successfully sent!')
         })
             .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
     }
+
+    // const sendFeedback = (serviceID, templateId, variables) => {
+    //     window.emailjs.send(
+    //         serviceID, templateId,
+    //         variables
+    //     ).then(res => {
+    //         console.log('Email successfully sent!')
+    //     })
+    //         .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
+    // }
 
     return (
         <section className="section section-contact section-contact-1">
