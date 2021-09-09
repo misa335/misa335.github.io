@@ -21,9 +21,6 @@ function Contact() {
 
     const formSubmit = (e) => {
         alert(`Thank you for your message from ${email}`);
-        // const templateId = 'template_xsqqxe7';
-        // const serviceID = 'full_name';
-        // sendFeedback(serviceID, templateId, { from_name: name, message: message, reply_to: email });
         sendMessage();
         setName("");
         setEmail("");
@@ -49,16 +46,6 @@ function Contact() {
         })
             .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
     }
-
-    // const sendFeedback = (serviceID, templateId, variables) => {
-    //     window.emailjs.send(
-    //         serviceID, templateId,
-    //         variables
-    //     ).then(res => {
-    //         console.log('Email successfully sent!')
-    //     })
-    //         .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
-    // }
 
     return (
         <section className="section section-contact section-contact-1">
