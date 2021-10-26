@@ -69,7 +69,7 @@ function Contact() {
                                         <span>Get in touch with me today.</span>
                                     </h3>
                                     <div className="divider divider-1"></div>
-                                    <p>If you have any question, please feel free to drop me a line!</p>
+                                    <p>If you have any questions, please feel free to drop me a line!</p>
                                 </header>
                                 <form className="form form-1 pt-15">
                                     <Row className="row">
